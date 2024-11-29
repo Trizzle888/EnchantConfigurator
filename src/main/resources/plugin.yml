@@ -1,0 +1,23 @@
+name: EnchantConfigurator
+version: '${project.version}'
+main: kevlar.enchantConfigurator.EnchantConfigurator
+api-version: '1.13'
+commands:
+  enchantconfigurator:
+    description: Main command for EnchantConfigurator
+    usage: /<command> <customenchant|reload|give>
+    aliases: [ec]
+    permission: enchantconfigurator.use
+permissions:
+  enchantconfigurator.use:
+    description: Allows use of basic plugin commands
+    default: true
+  enchantconfigurator.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  enchantconfigurator.enchant:
+    description: Allows applying custom enchantments
+    default: op
+  enchantconfigurator.give:
+    description: Allows giving enchanted books
+    default: op

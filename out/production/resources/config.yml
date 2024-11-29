@@ -1,0 +1,40 @@
+# EnchantConfigurator Configuration
+# Configure vanilla enchantment settings here
+
+vanilla_enchants:
+  # Format:
+  # ENCHANTMENT_NAME:
+  #   enabled: true/false
+  #   max_level: number
+  #   min_exp_level: number
+  
+  PROTECTION:
+    enabled: true
+    max_level: 5  # Default is 4
+    min_exp_level: 1
+    
+  SHARPNESS:
+    enabled: true
+    max_level: 6  # Default is 5
+    min_exp_level: 1
+    
+  EFFICIENCY:
+    enabled: true
+    max_level: 6  # Default is 5
+    min_exp_level: 1
+    
+  FORTUNE:
+    enabled: true
+    max_level: 4  # Default is 3
+    min_exp_level: 15
+    
+  UNBREAKING:
+    enabled: true
+    max_level: 4  # Default is 3
+    min_exp_level: 5
+
+# Set to true to allow removal of enchantments using grindstone
+allow_enchant_removal: true
+
+# Set to true to allow combining enchanted books above vanilla max level
+allow_combining_above_max: true 

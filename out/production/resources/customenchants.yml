@@ -1,0 +1,31 @@
+# Example custom enchantment
+autosmelt:
+  displayName: "Auto Smelt"
+  maxLevel: 1
+  allowedItems:
+    - DIAMOND_PICKAXE
+    - IRON_PICKAXE
+    - GOLDEN_PICKAXE
+    - NETHERITE_PICKAXE
+  obtainMethods:
+    - VILLAGER
+    - ENCHANTING_TABLE
+  minExpLevel: 20
+  effects:
+    - SMELT_ORE
+
+lightning_aspect:
+  displayName: "Lightning Aspect"
+  maxLevel: 3
+  allowedItems:
+    - DIAMOND_SWORD
+    - IRON_SWORD
+    - GOLDEN_SWORD
+    - NETHERITE_SWORD
+  obtainMethods:
+    - VILLAGER
+    - FISHING
+  minExpLevel: 25
+  effects:
+    - STRIKE_LIGHTNING
+  levelMultiplier: 1.5 
